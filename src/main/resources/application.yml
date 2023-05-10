@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+springdoc:
+  swagger-ui:
+    path: /
+spring:
+  application:
+    name: bootelemetry-metrics
+  main:
+    banner-mode: off
